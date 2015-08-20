@@ -1,0 +1,64 @@
+a:before {
+    color: #888;
+    content: "\2605";
+    display: inline-block;
+    font-size:larger;
+    text-transform: none;
+    margin: 0 10px 0 0;
+}
+a:after {
+    color: #999;
+    content: "\2605";
+    display: inline-block;
+    font-size:larger;
+    text-transform: none;
+    margin: 0 0 0 10px;
+}
+a {
+    background-color: #eee;
+    background-image: linear-gradient(to bottom, #fff, #ccc);
+    border-radius: 10px;
+    box-shadow:
+        0 0 0 2px #aaa,
+        0 0 0 7px #ccc,
+        0 0 0 9px #fff,
+        0 0 0 11px #666;
+    color: #666;
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    left: 10px;
+    padding: 18px 16px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    text-transform: uppercase;
+    top: 20px;
+}
+
+table {
+    margin-top:100px;
+}
+table, td {
+    border:1px solid black;
+}
+td {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height:90px;
+    min-width:90px;
+    text-align:center;
+    width:90px;
+}
+td.N {
+    background-image: url("north.png");
+}
+td.E {
+    background-image: url("east.png");
+}
+td.S {
+    background-image: url("south.png");
+}
+td.W {
+    background-image: url("west.png");
+}
